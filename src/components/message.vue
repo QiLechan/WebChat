@@ -1,7 +1,6 @@
 <script setup lang="ts">
-defineProps({
-  message: String
-})
+import { ref } from 'vue'
+const message = ref('')
 </script>
 
 <template>
